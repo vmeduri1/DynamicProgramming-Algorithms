@@ -47,6 +47,8 @@ const canSumMemo = (targetSum, numbers, memo={}) => {
     return false;
 }
 
+// memo solution compiles faster
+
 console.log(canSumMemo(7, [5, 3, 4, 7])); // true
 console.log(canSumMemo(7, [5, 3, 4, 7])); // false
 console.log(canSumMemo(7, [2, 4])); // true
